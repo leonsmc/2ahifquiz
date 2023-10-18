@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <img src="logo.png" alt="Logo" class="logo">
+
+    <div class="container">
+        <div id="intro">
+            <input type="text" id="name" placeholder="Gib deinen Namen ein">
+            <button class="okay-btn" id="start-btn">Start Quiz</button>
+        </div>
+        <div id="quiz" style="display: none;">
+            <p id="question"></p>
+            <div id="choices">
+                <div><button class="answer-btn">Answer 1</button></div>
+                <div><button class="answer-btn">Answer 2</button></div>
+                <div><button class="answer-btn">Answer 3</button></div>
+                <!-- ... you can add more buttons as needed -->
+            </div>
+            <div id="gesammtpunkte-section" style="display: none;">
+                <h2>Your Total Points</h2>
+                <p id="gesammtpunkte">0</p>
+                <button class="okay-btn" onclick="redirectToLeaderboard()">Okay</button>
+            </div>
+        </div>
+        <div id="results" style="display: none;">
+            <p>Your score is: <span id="score"></span></p>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+
+</body>
+</html>
