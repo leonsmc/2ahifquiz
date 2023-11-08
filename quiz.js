@@ -29,6 +29,12 @@ document.addEventListener("DOMContentLoaded", function() {
             correct: 2,  // <-- This is the third option, so index should be 2
             points: 150
         },
+        { 
+            question: "Was ist keine Fachrichtung in unserer HTL?", 
+            answers: ["Informatik", "Maschinenbau", "Elektronik"],
+            correct: 1,
+            points: 250
+        },
 
         // ... Add more questions as needed
     ];
@@ -89,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function saveScoreToServer(name, score) {
-        fetch('http://127.0.0.1:5000/save_score', {
+        fetch('http://192.168.1.2:5000/save_score', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

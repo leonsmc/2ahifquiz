@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('http://127.0.0.1:5000/get_top_5')
+    fetch('http://192.168.1.2:5000/save_score')
         .then(response => response.json())
         .then(data => {
             populateLeaderboard(data);

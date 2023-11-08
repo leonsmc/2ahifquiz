@@ -6,3 +6,7 @@ Graf Zeppelin,1500
 DIETRICH,200
 Haniball,500
 Lukas,150
+R,150
+111111,500
+Franz,500
+HEINRICH,500
