@@ -35,6 +35,40 @@ document.addEventListener("DOMContentLoaded", function() {
             correct: 1,
             points: 250
         },
+        { 
+            question: "Welcher der volgenden Zeilen platziert eine Stein Block?", 
+            answers: ["minecraft.setBlock(x, y, z, block.STONE)", "minecraft.setBlock(x, y, z, block.WOOD)", "minecraft.setBlock(x, y, z, block.NETHER_Core)"],
+            correct: 0,
+            points: 100
+        },
+
+{
+            question: "Was zeigt ein Flussdiagramm typischerweise an?", 
+            answers: ["Die Struktur eines Programmcodes", "Die Hierarchie einer Organisation", "Die Geschichte eines historischen Ereignisses"],
+            correct: 0,
+            points: 175
+        },
+
+        {
+            question: "Was ist Scratch", 
+            answers: ["Ein Betriebssystem", "Ein Grafikbearbeitungsprogramm", "Eine bildungsorientierte visuelle Entwicklungsumgebung"],
+            correct: 2,
+            points: 187
+            },
+
+        {
+            question: "Was ist die Einheit für die Stromstärke", 
+            answers: ["Volt", "Ohm", "Ampere"],
+            correct: 2,
+            points: 300
+            },
+
+        {
+            question: "Was ist eine GPU", 
+            answers: ["Grafikkarte", "Prozessor", "Lüftung"],
+            correct: 0,
+            points: 200
+            },
 
         // ... Add more questions as needed
     ];
